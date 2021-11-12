@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{dynamic_form}
-  s.version = "1.1.4"
+  s.version = "1.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Joel Moss"]
+  s.authors = ["Flux Federation Ltd"]
   s.date = %q{2010-09-05}
   s.description = %q{DynamicForm holds a few helper methods to help you deal with your Rails3 models. It includes the stripped out methods from Rails 2; error_message_on and error_messages_for. It also brings in the functionality of the custom-err-messages plugin, which provides more flexibility over your model error messages.}
-  s.email = %q{joel@developwithstyle.com}
+  s.email = %q{platform@fluxfederation.com}
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
      "test/dynamic_form_test.rb",
      "test/test_helper.rb"
   ]
-  s.homepage = %q{http://github.com/joelmoss/dynamic_form}
+  s.homepage = %q{http://github.com/fluxfederation/dynamic_form}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
